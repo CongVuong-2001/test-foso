@@ -17,7 +17,7 @@ const Header = () => {
     }));
   }, []);
   return (
-    <nav className="w-10/12 xl:w-8/12 fixed top-4 left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-full px-16 py-4 flex items-center justify-between gap-4 z-50 ">
+    <nav className="w-10/12 fixed top-4 left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-full px-16 py-4 flex items-center justify-between gap-4 z-50 ">
 
       {/* Logo */}
       <Link href="/">

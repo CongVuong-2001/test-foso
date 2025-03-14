@@ -4,7 +4,6 @@ import { CiCalendar } from "react-icons/ci";
 import Image from 'next/image';
 import Link from 'next/link';
 import slugify from "slugify";
-import postData from '@/data';
 
 type PostProps = {
   name:string,

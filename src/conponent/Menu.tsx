@@ -27,7 +27,7 @@ const Menu = () => {
             <div className='py-6'>
                 <h3 className="text-lg font-semibold mb-2">Danh Mục</h3>
                 <ul className="flex flex-col gap-y-3 mt-6">
-                    {dataMenu.map((menu: any) => (
+                    {dataMenu.map((menu) => (
                         <li key={menu.name} className="flex justify-between text-gray-700 hover:text-green-600 cursor-pointer">
                             <span>{menu.name}</span>
                             <span>{menu.count}</span>

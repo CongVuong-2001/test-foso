@@ -85,7 +85,7 @@ const Blog = () => {
           className={`px-4 py-2 border rounded-lg ${currentPage === 1 ? "text-gray-400 cursor-not-allowed" : "hover:bg-gray-100"}`}
           disabled={currentPage === 1}
         >
-          Prev
+          <span className='hidden md:flex'>Trang Trước </span><FiChevronLeft className='flex md:hidden'/>
         </button>
 
         {getPaginationNumbers().map((page, index) =>
@@ -111,7 +111,7 @@ const Blog = () => {
           className={`px-4 py-2 border rounded-lg ${currentPage === totalPages ? "text-gray-400 cursor-not-allowed" : "hover:bg-gray-100"}`}
           disabled={currentPage === totalPages}
         >
-          Next
+          <span className='hidden md:flex'>Trang kế</span><FiChevronRight className='flex md:hidden'/>
         </button>
       </div>
     </div>

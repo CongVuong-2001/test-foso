@@ -76,8 +76,8 @@ const page = () => {
 
                     {/* Đoạn giới thiệu in nghiêng */}
                     <p className="italic text-lg text-gray-600 text-center mt-2">
-                        "Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S là gì? Xây dựng 5S cần yếu tố gì?
-                        Bài viết dưới đây của FOSO sẽ trả lời cho bạn thông tin chi tiết..."
+                        &quot;Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S là gì? Xây dựng 5S cần yếu tố gì?
+                        Bài viết dưới đây của FOSO sẽ trả lời cho bạn thông tin chi tiết...&quot;
                     </p>
 
                     {/* Chương mục 1 */}
@@ -260,13 +260,13 @@ const page = () => {
                     </p>
 
                     <blockquote className="border-l-4 border-green-500 pl-4 italic text-gray-700 my-4">
-                        “Về Kaizen, thì đây được xem là một triết lý cải tiến liên tục trong doanh nghiệp.
-                        Phương pháp này nhằm tạo ra sự thay đổi tích cực, mang tính liên tục và bền vững.”
+                        &quot;Về Kaizen, thì đây được xem là một triết lý cải tiến liên tục trong doanh nghiệp.
+                        Phương pháp này nhằm tạo ra sự thay đổi tích cực, mang tính liên tục và bền vững.&quot;
                     </blockquote>
 
                     <blockquote className="border-l-4 border-green-500 pl-4 italic text-gray-700 my-4">
-                        “Còn đối với quy tắc 5S, đây là một phương pháp quản lý và cải tiến trong sản xuất.
-                        5S tập trung vào việc sắp xếp, xác lập, tiêu chuẩn hóa và kỷ luật trong môi trường làm việc.”
+                        &quot;Còn đối với quy tắc 5S, đây là một phương pháp quản lý và cải tiến trong sản xuất.
+                        5S tập trung vào việc sắp xếp, xác lập, tiêu chuẩn hóa và kỷ luật trong môi trường làm việc.&quot;
                     </blockquote>
 
                     <p className="text-gray-700 mt-2">

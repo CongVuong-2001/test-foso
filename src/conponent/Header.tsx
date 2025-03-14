@@ -10,7 +10,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
 
-  const ToggleDrop = useCallback((menu: any) => {
+  const ToggleDrop = useCallback((menu: string) => {
     setOpenDropdown((prev) => ({
       ...prev,
       [menu]: !prev[menu],

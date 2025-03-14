@@ -2,7 +2,7 @@ import MenuSlug from '@/conponent/MenuSlug'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FiCalendar, FiClock, FiCornerDownRight } from 'react-icons/fi'
+import { FiCalendar, FiClock } from 'react-icons/fi'
 import { BsDot } from "react-icons/bs";
 
 
